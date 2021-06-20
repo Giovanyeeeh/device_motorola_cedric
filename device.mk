@@ -13,6 +13,7 @@ $(call inherit-product, vendor/motorola/cedric/cedric-vendor.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
